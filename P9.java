@@ -1,8 +1,8 @@
-public class P10 {
+public class P9 {
 
     static int count = 0;
 
-    public P10() {
+    public P9() {
          count++;
      }
 
@@ -11,9 +11,9 @@ public class P10 {
      }
 
      public static void main(String[] args) {
-         P10.printMessages();
-         P10 M1 = new P10();
-         P10 M2 = new P10();
+         P9.printMessages();
+         P9 M1 = new P9();
+         P9 M2 = new P9();
          System.out.println(M1.count);
     }
  }
