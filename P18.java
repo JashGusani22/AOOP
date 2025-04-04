@@ -8,7 +8,6 @@ class Car {
         this.topSpeed = topSpeed;
     }
 
-   string representation of Car
     @Override
     public String toString() {
         return "Car Name: " + name + ", Top Speed: " + topSpeed + " km/h";
